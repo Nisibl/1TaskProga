@@ -24,16 +24,25 @@ namespace BusinessLogic
             students.Remove( new Student(name, speciality, group));
         }
 
-        public string[][] GetAllStudents()
+        public string[][] GetAllStudentsFormatArrayOfArrays()
         {
             string[][] result = new string[students.Count][];
 
-            string[] currentStudent = new string[3]; // 3 = количество необходимых параметров: имя, специальность, группа
-            
             for( int i = 0; i < students.Count; i++ )
             {
-                result[i] = new string[] { students[i].GetName(), 
-                    students[i].GetSpeciality(), students[i].GetGroup() };
+                result[i] = new string[] { students[i].name, 
+                    students[i].speciality, students[i].group };
+            }
+
+            return result;
+        }
+        public Student[] GetAllStudentsFormatArrayOfStudents()
+        {
+            Student[] result = new Student[students.Count];
+
+            for (int i = 0; i < students.Count; i++)
+            {
+                result[i] = students[i];
             }
 
             return result;
@@ -44,10 +53,10 @@ namespace BusinessLogic
             Dictionary<string, int> result = new Dictionary<string, int>();
             foreach (var student in students)
             {
-                string specialityOfStudent = student.GetSpeciality();
+                string specialityOfStudent = student.speciality;
                 if ( result.ContainsKey(specialityOfStudent) )
                 {
-                    result[student.GetSpeciality()]++;
+                    result[student.speciality]++;
                 }
                 else
                 {
@@ -56,6 +65,22 @@ namespace BusinessLogic
             }
 
             return result;
+        }
+
+        public void FillTableWithDemoData()
+        {
+            for (int i = 0; i < 10; i++)
+            {
+                AddStudent(Convert.ToString(i), "Повар", "ИН20-45л");
+            }
+            for (int i = 0; i < 20; i++)
+            {
+                AddStudent(Convert.ToString(i), "Программист", "КИ23-21б");
+            }
+            for (int i = 0; i < 2; i++)
+            {
+                AddStudent(Convert.ToString(i), "Моряк", "ФИ26-7б");
+            }
         }
     }
 }

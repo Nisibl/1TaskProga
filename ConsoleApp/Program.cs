@@ -34,7 +34,7 @@ namespace ConsoleApp
                         PrintGistogram();
                         break;
                     case "5":
-                        FillTableWithDemoData();
+                        logic.FillTableWithDemoData();
                         break;
                     default: 
                         Console.WriteLine("Введена некорректная команда");
@@ -117,22 +117,6 @@ namespace ConsoleApp
                 }
             }
             return maxValue;
-        }
-
-        static private void FillTableWithDemoData()
-        {
-            for( int i = 0;i < 10;i++ )
-            {
-                logic.AddStudent(Convert.ToString(i), "Повар", "ИН20-45л");
-            }
-            for (int i = 0; i < 20; i++)
-            {
-                logic.AddStudent(Convert.ToString(i), "Программист", "КИ23-21б");
-            }
-            for (int i = 0; i < 2; i++)
-            {
-                logic.AddStudent(Convert.ToString(i), "Моряк", "ФИ26-7б");
-            }
         }
 
         static private int GetIndexInRange(int maxValue, int maxScale, int currentValue)
