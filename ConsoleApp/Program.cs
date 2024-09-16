@@ -10,7 +10,7 @@ using BusinessLogic;
 
 namespace ConsoleApp
 {
-    internal class Program
+    public class Program
     {
         static Logic logic = new Logic();
         static void Main(string[] args)
@@ -19,6 +19,7 @@ namespace ConsoleApp
             while (true)
             {
                 var input = Console.ReadLine();
+                ClearConsoleBySavingInstructions();
                 switch (input)
                 {
                     case "1":
@@ -35,6 +36,7 @@ namespace ConsoleApp
                         break;
                     case "5":
                         logic.FillTableWithDemoData();
+                        Console.WriteLine("Таблица успешно заполнена!");
                         break;
                     default: 
                         Console.WriteLine("Введена некорректная команда");
@@ -49,12 +51,22 @@ namespace ConsoleApp
 
             logic.AddStudent(name, speciality, group);
             ClearConsoleBySavingInstructions();
+            Console.WriteLine("Студент успешно создан!");
         }
 
         static private void DeleteStudent()
         {
             (string name, string speciality, string group) = InterviewUser();
-            logic.DeleteStudent(name, speciality, group);
+            if( logic.DoesStudentExist(name, speciality, group) )
+            {
+                logic.DeleteStudent(name, speciality, group);
+                ClearConsoleBySavingInstructions();
+            }
+            else
+            {
+                ClearConsoleBySavingInstructions();
+                Console.WriteLine("Такого студента не существует");
+            }
         }
 
         static private (string name, string speciality, string group) InterviewUser()
@@ -80,7 +92,7 @@ namespace ConsoleApp
             Console.WriteLine("{0,-20} {1,-20} {2,-20}", "Name", "Speciality", "Group");
             Console.WriteLine(new string('-', 50));
 
-            string[][] students = logic.GetAllStudents();
+            string[][] students = logic.GetAllStudentsFormatArrayOfArrays();
             for (int i = 0; i < students.Length; i++)
             {
                 Console.WriteLine("{0,-20} {1,-20} {2,-20}", 

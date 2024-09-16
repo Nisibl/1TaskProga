@@ -44,8 +44,6 @@ namespace WindowsFormsApp
                 countsSpecialties.Add( item.Value );
             }
 
-            //double[] data = { 10, 20, 15, 25, 18, 22 };
-            //string[] labels = { "Item 1", "Item 2", "Item 3", "Item 4", "Item 5", "Item 6" };
 
             // Настраиваем диаграмму
             chart1.ChartAreas[0].AxisX.Title = "Items";
@@ -60,7 +58,6 @@ namespace WindowsFormsApp
         private void GistogramForm_Load_1(object sender, EventArgs e)
         {
             FillGistogram();
-            MessageBox.Show("Я родился");
         }
     }
 }

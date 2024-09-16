@@ -3,8 +3,10 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Reflection;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 using Model;
 
 namespace BusinessLogic
@@ -21,7 +23,29 @@ namespace BusinessLogic
 
         public void DeleteStudent(string name, string speciality, string group)
         {
-            students.Remove( new Student(name, speciality, group));
+            students.Remove(GetStudent(name, speciality, group));
+        }
+        public Student GetStudent(string name, string speciality, string group)
+        {
+            foreach (Student student in students)
+            {
+                if( student.name == name && student.speciality == speciality && student.group == group )
+                {
+                    return student;
+                }
+            }
+            return null;
+        }
+        public bool DoesStudentExist(string name, string speciality, string group)
+        {
+            foreach (Student student in students)
+            {
+                if (student.name == name && student.speciality == speciality && student.group == group)
+                {
+                    return true;
+                }
+            }
+            return false;
         }
 
         public string[][] GetAllStudentsFormatArrayOfArrays()
