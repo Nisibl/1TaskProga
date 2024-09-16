@@ -45,5 +45,10 @@ namespace WindowsFormsApp
             GistogramForm gistogramForm = new GistogramForm(logic);
             gistogramForm.ShowDialog();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

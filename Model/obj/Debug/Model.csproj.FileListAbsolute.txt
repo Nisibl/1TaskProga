@@ -10,3 +10,9 @@ C:\Users\Kostya\source\repos\Semestr3\1Task\1TaskProga\Model\obj\Debug\Model.csp
 C:\Users\Kostya\source\repos\Semestr3\1Task\1TaskProga\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
 C:\Users\Kostya\source\repos\Semestr3\1Task\1TaskProga\Model\obj\Debug\Model.dll
 C:\Users\Kostya\source\repos\Semestr3\1Task\1TaskProga\Model\obj\Debug\Model.pdb
+C:\Users\Елисей\Documents\GitHub\1TaskProga\Model\bin\Debug\Model.dll
+C:\Users\Елисей\Documents\GitHub\1TaskProga\Model\bin\Debug\Model.pdb
+C:\Users\Елисей\Documents\GitHub\1TaskProga\Model\obj\Debug\Model.csproj.AssemblyReference.cache
+C:\Users\Елисей\Documents\GitHub\1TaskProga\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+C:\Users\Елисей\Documents\GitHub\1TaskProga\Model\obj\Debug\Model.dll
+C:\Users\Елисей\Documents\GitHub\1TaskProga\Model\obj\Debug\Model.pdb
