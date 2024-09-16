@@ -16,3 +16,12 @@ C:\Users\Kostya\source\repos\Semestr3\1Task\1TaskProga\BusinessLogic\obj\Debug\B
 C:\Users\Kostya\source\repos\Semestr3\1Task\1TaskProga\BusinessLogic\obj\Debug\BusinessLogic.csproj.CopyComplete
 C:\Users\Kostya\source\repos\Semestr3\1Task\1TaskProga\BusinessLogic\obj\Debug\BusinessLogic.dll
 C:\Users\Kostya\source\repos\Semestr3\1Task\1TaskProga\BusinessLogic\obj\Debug\BusinessLogic.pdb
+C:\Users\Елисей\Documents\GitHub\1TaskProga\BusinessLogic\bin\Debug\BusinessLogic.dll
+C:\Users\Елисей\Documents\GitHub\1TaskProga\BusinessLogic\bin\Debug\BusinessLogic.pdb
+C:\Users\Елисей\Documents\GitHub\1TaskProga\BusinessLogic\bin\Debug\Model.dll
+C:\Users\Елисей\Documents\GitHub\1TaskProga\BusinessLogic\bin\Debug\Model.pdb
+C:\Users\Елисей\Documents\GitHub\1TaskProga\BusinessLogic\obj\Debug\BusinessLogic.csproj.AssemblyReference.cache
+C:\Users\Елисей\Documents\GitHub\1TaskProga\BusinessLogic\obj\Debug\BusinessLogic.csproj.CoreCompileInputs.cache
+C:\Users\Елисей\Documents\GitHub\1TaskProga\BusinessLogic\obj\Debug\Business.CF5D6E35.Up2Date
+C:\Users\Елисей\Documents\GitHub\1TaskProga\BusinessLogic\obj\Debug\BusinessLogic.dll
+C:\Users\Елисей\Documents\GitHub\1TaskProga\BusinessLogic\obj\Debug\BusinessLogic.pdb

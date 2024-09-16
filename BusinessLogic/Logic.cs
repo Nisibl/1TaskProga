@@ -103,7 +103,7 @@ namespace BusinessLogic
             }
             for (int i = 0; i < 2; i++)
             {
-                AddStudent(Convert.ToString(i), "Моряк", "ФИ26-7б");
+                AddStudent(Convert.ToString(i), "МАРИО", "ФИ26-7б");
             }
         }
     }

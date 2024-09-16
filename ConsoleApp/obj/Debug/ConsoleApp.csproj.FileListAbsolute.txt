@@ -24,3 +24,15 @@ C:\Users\Kostya\source\repos\Semestr3\1Task\1TaskProga\ConsoleApp\obj\Debug\Cons
 C:\Users\Kostya\source\repos\Semestr3\1Task\1TaskProga\ConsoleApp\obj\Debug\ConsoleApp.csproj.CopyComplete
 C:\Users\Kostya\source\repos\Semestr3\1Task\1TaskProga\ConsoleApp\obj\Debug\ConsoleApp.exe
 C:\Users\Kostya\source\repos\Semestr3\1Task\1TaskProga\ConsoleApp\obj\Debug\ConsoleApp.pdb
+C:\Users\Елисей\Documents\GitHub\1TaskProga\ConsoleApp\bin\Debug\ConsoleApp.exe.config
+C:\Users\Елисей\Documents\GitHub\1TaskProga\ConsoleApp\bin\Debug\ConsoleApp.exe
+C:\Users\Елисей\Documents\GitHub\1TaskProga\ConsoleApp\bin\Debug\ConsoleApp.pdb
+C:\Users\Елисей\Documents\GitHub\1TaskProga\ConsoleApp\bin\Debug\BusinessLogic.dll
+C:\Users\Елисей\Documents\GitHub\1TaskProga\ConsoleApp\bin\Debug\Model.dll
+C:\Users\Елисей\Documents\GitHub\1TaskProga\ConsoleApp\bin\Debug\BusinessLogic.pdb
+C:\Users\Елисей\Documents\GitHub\1TaskProga\ConsoleApp\bin\Debug\Model.pdb
+C:\Users\Елисей\Documents\GitHub\1TaskProga\ConsoleApp\obj\Debug\ConsoleApp.csproj.AssemblyReference.cache
+C:\Users\Елисей\Documents\GitHub\1TaskProga\ConsoleApp\obj\Debug\ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\Елисей\Documents\GitHub\1TaskProga\ConsoleApp\obj\Debug\ConsoleApp.csproj.Up2Date
+C:\Users\Елисей\Documents\GitHub\1TaskProga\ConsoleApp\obj\Debug\ConsoleApp.exe
+C:\Users\Елисей\Documents\GitHub\1TaskProga\ConsoleApp\obj\Debug\ConsoleApp.pdb
